@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: python-web-app
+        image: jincy14/python-web-app:latest
         ports:
         - containerPort: 80
